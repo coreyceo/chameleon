@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">Chameleon</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="register">Register</string>
+    <string name="register_now">Register now!</string>
+
+    <!-- Twitter Configurations -->
+    <string name="twitter_callback">http://bidhee.net/chameleon/api</string>
+    <string name="twitter_consumer_key">T5yx8IvcTsrsoGXkRztlzidMO</string>
+    <string name="twitter_consumer_secret">ox3rXMaY39lXz22hHlwvC6bQ55IQYu8EO6CL6yXKiX11oW05J6</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+
+	<string name="facebook_app_id">487235344767209</string>
+	
+	
+	<!-- edit text validation -->
+	
+	<string name="error_unknown">N/A</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_enter_ten_digit">Enter ten digit phone no.</string>
+    <string name="error_mismatch_password">Password mismatch</string>
+    <string name="inital_Time">0 min, 0 sec</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_no_reference_email_for_password">Please, enter the email address or user id to verify your password</string>
+    <string name="error_email_not_exist">Sorry the email address does not exist.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    
+    <string name="msg_err_an_error_occurred_operation">An error occurred while operation!</string>
+    <string name="msg_err_enter_email">Please enter email address!</string>
+    <string name="msg_err_enter_verification_code">Please enter the verification code!</string>
+</resources>

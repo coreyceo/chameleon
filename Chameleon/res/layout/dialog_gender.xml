@@ -1,0 +1,43 @@
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_color"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnDUnspecified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark"
+        android:background="@color/white"
+        android:text="Unspecified" />
+
+    <Button
+        android:id="@+id/btnDMale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/text_dark"
+        android:text="Male" />
+
+    <Button
+        android:id="@+id/btnDFemale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+         android:textColor="@color/text_dark"
+        android:text="Female" />
+   
+    
+    <Button
+        android:id="@+id/btnDCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button"
+        android:text="Cancel" />
+     
+    
+</LinearLayout>

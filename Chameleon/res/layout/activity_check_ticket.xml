@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@color/bg_color" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llCheckForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/etEventName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Event Name"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+
+                <EditText
+                    android:id="@+id/etDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Date"
+                    android:inputType="text|date"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+ 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+				
+                <EditText
+                    android:id="@+id/etVenue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Venue"
+                    android:inputType="text"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+                
+                 <EditText
+                    android:id="@+id/etPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Price"
+                    android:inputType="number"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+
+               
+                <EditText
+                    android:id="@+id/etBarcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Barcode"
+                    android:inputType="text"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+
+                <EditText
+                    android:id="@+id/etRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Row"
+                    android:inputType="text"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+
+                <EditText
+                    android:id="@+id/etSeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Seat"
+                    android:inputType="text"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+                               
+				<View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+
+                <EditText
+                    android:id="@+id/etQty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_color"
+                    android:hint="Quantity"
+                    android:inputType="number"
+                    android:textColor="@color/text_dark"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/hint_color" />
+
+                <Button
+                    android:id="@+id/btnCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_button"
+                    android:padding="8dp"
+                    android:text="Check" />
+             
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent" >
+
+                <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                    android:id="@+id/pbCheck"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:padding="3dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </FrameLayout>
+    </ScrollView>
+ 
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize" >
+    </android.support.v7.widget.Toolbar>
+</FrameLayout>

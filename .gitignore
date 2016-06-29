@@ -1,0 +1,16 @@
+android-support-v7-appcompat/bin
+android-support-v7-appcompat/gen
+appcompat_v7/bin
+appcompat_v7/gen
+CaptureActivity/bin
+CaptureActivity/gen
+Chameleon/bin
+Chameleon/gen
+FacebookSDK/bin
+FacebookSDK/gen
+google-play-services_lib/bin
+google-play-services_lib/gen
+MaterialDesignLib/bin
+MaterialDesignLib/gen
+Simple Facebook/bin
+Simple Facebook/gen

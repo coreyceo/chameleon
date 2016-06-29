@@ -1,0 +1,35 @@
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnCPPCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark"
+        android:background="@color/white"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btnCPPGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/text_dark"
+        android:text="Gallery" />
+   
+    
+    <Button
+        android:id="@+id/btnCPPCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_inner"
+       	android:textColor="@color/white"
+        android:background="@drawable/bg_button"
+        android:text="Cancel" />
+    
+    
+</LinearLayout>

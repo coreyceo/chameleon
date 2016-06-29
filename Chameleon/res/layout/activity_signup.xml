@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/sv_signup_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@color/bg_color" >
+
+        <FrameLayout
+            android:id="@+id/fr_signup_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_signup_root"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:src="@drawable/header" />
+
+                <EditText
+                    android:id="@+id/edt_signup_email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"                    
+                    android:hint="Email"
+                    android:textColor="@color/text_dark"
+                    android:textColorHint="@color/hint_color"
+                    android:inputType="textEmailAddress"/>
+
+                <EditText
+                    android:id="@+id/edt_signup_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/text_dark"
+                    android:textColorHint="@color/hint_color"/>
+
+                <EditText
+                    android:id="@+id/edt_signup_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Re - Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/hint_color"
+                    android:textColor="@color/text_dark"/>
+
+                <Button
+                    android:id="@+id/btn_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_button"
+                    android:padding="8dp"
+                    android:text="Register Now" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_signup_progress_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent" >
+
+                <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                    android:id="@+id/pb_signup"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:padding="3dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </FrameLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/primaryColor"
+        android:minHeight="?attr/actionBarSize"/>    
+
+</FrameLayout>

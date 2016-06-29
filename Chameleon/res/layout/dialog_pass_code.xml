@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llPasscode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/etPasscode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+           	android:singleLine="true"
+            android:hint="Passcode"
+            android:textColor="@color/text_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etPassCodePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="New Password"
+            android:singleLine="true"
+            android:padding="8dp"
+            android:textColor="@color/text_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etPasscodeRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:singleLine="true"
+            android:textColor="@color/text_dark"
+            android:hint="Re Type New Password"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:inputType="textPassword"
+            android:padding="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/list_diveder" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnokPasscode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/primaryColor"
+                android:text="Change"
+                 />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/list_diveder" />
+
+            <Button
+                android:id="@+id/btnCancelPasscode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/primaryColor"
+                android:padding="4dp"
+                android:text="Cancel"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+ <ProgressBar
+        android:id="@+id/pbPasscode"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

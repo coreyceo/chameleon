@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">8dp</dimen> 
+    <dimen name="corner_radius_zero">0dp</dimen> 
+    <dimen name="tab_space_top">4dp</dimen>
+    <dimen name="tab_space">0dp</dimen>
+    <dimen name="tab_space_plus1">3dp</dimen>
+    <dimen name="tab_space_bottom_line">36sp</dimen>
+    <dimen name="tab_space_unselected_top">6sp</dimen> 
+    <dimen name="dont_have_ac">16dp</dimen> 
+    <dimen name="text_welcome">16dp</dimen> 
+    <dimen name="text_button_scan">18dp</dimen>
+    <dimen name="text_inner">15sp</dimen>
+    <dimen name="toolbar_height">50dp</dimen>
+</resources>  

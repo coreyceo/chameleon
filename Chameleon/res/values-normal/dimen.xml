@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><dimen name="chameleon_title">28px</dimen>
+    <dimen name="email">24px</dimen>
+    <dimen name="password">24px</dimen>
+    <dimen name="login_register">24px</dimen>
+    <dimen name="register_now">18px</dimen>
+    <dimen name="forgot_pwd">18px</dimen>
+    <dimen name="share_exit">18px</dimen>
+    <dimen name="valid_invalid">58px</dimen>
+    <dimen name="good_to_go">26px</dimen>
+    <dimen name="profile_image">100dp</dimen>
+
+</resources>

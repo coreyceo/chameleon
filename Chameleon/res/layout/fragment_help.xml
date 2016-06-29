@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbarHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:minHeight="@dimen/toolbar_height"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/etAddEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Email"
+                android:background="@drawable/bg_card"
+                android:textColor="@color/text_dark"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:layout_marginTop="4dp"
+                android:padding="16dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="4dp"
+                android:textSize="@dimen/text_inner" />
+            
+            <EditText
+                android:id="@+id/etAddQuery"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="16dp"
+                android:background="@drawable/bg_card"
+                android:hint="Write your concern in the box provided below"
+                android:textColor="@color/text_dark"
+                android:gravity="top"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="@dimen/text_inner" />
+
+            <Button
+                android:id="@+id/btnAddQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/bg_button"
+                android:text="Send"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
